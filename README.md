@@ -5,10 +5,10 @@ EC2 instance running on AWS Demo: http://ec2-52-34-184-158.us-west-2.compute.ama
 
 MEAN Stack
 
-+Angular 1.5 
-+Express 4 
-+NodeJS 
-+BootStrap
++ Angular 1.5 
++ Express 4 
++ NodeJS 
++ BootStrap
 
 + Google Map API
 + Yelp API
