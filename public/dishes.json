@@ -1,0 +1,211 @@
+[
+    {
+        "dishId": 1,
+        "dishName": "孜然羊肉",
+        "introduction": "haochi",
+        "dishType": "main",
+        "price": 17.99,
+        "flavor": "la",
+        "spicyLevel": 2,
+        "image": "/pics/omei_about.png",
+        "recommend": true
+    },
+    {
+        "dishId": 2,
+        "dishName": "糖醋排骨",
+        "introduction": "",
+        "dishType": "signature",
+        "price": 12.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 3,
+        "dishName": "辣子鸡丁",
+        "introduction": "d",
+        "dishType": "signature",
+        "price": 11.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 4,
+        "dishName": "夫妻肺片",
+        "introduction": "",
+        "dishType": "cold",
+        "price": 7.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 5,
+        "dishName": "冬瓜排骨汤",
+        "introduction": "a",
+        "dishType": "soup",
+        "price": 7.99,
+        "flavor": "asdf",
+        "spicyLevel": 2,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 6,
+        "dishName": "可乐",
+        "introduction": "wo henhao",
+        "dishType": "beverage",
+        "price": 2.25,
+        "flavor": "chaojila",
+        "spicyLevel": 4,
+        "image": "/pics/omei_about.png",
+        "recommend": true
+    },
+    {
+        "dishId": 7,
+        "dishName": "芒果千层",
+        "introduction": "wokaolv yixia",
+        "dishType": "dessert",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 8,
+        "dishName": "水煮鱼",
+        "introduction": "wokaolv yixia",
+        "dishType": "main",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 9,
+        "dishName": "回锅肉",
+        "introduction": "wokaolv yixia",
+        "dishType": "main",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 10,
+        "dishName": "剁椒鱼头",
+        "introduction": "wokaolv yixia",
+        "dishType": "main",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 11,
+        "dishName": "酸菜鱼",
+        "introduction": "wokaolv yixia",
+        "dishType": "main",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 12,
+        "dishName": "口水鸡",
+        "introduction": "wokaolv yixia",
+        "dishType": "signature",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 13,
+        "dishName": "麻辣小龙虾",
+        "introduction": "wokaolv yixia",
+        "dishType": "signature",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 14,
+        "dishName": "重庆小火锅",
+        "introduction": "wokaolv yixia",
+        "dishType": "signature",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 15,
+        "dishName": "凉面",
+        "introduction": "wokaolv yixia",
+        "dishType": "cold",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 16,
+        "dishName": "凉拌黄瓜",
+        "introduction": "wokaolv yixia",
+        "dishType": "cold",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 17,
+        "dishName": "西湖牛肉羹",
+        "introduction": "wokaolv yixia",
+        "dishType": "soup",
+        "price": 8.99,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 18,
+        "dishName": "雪碧",
+        "introduction": "wokaolv yixia",
+        "dishType": "beverage",
+        "price": 2.25,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    },
+    {
+        "dishId": 19,
+        "dishName": "橙汁",
+        "introduction": "wokaolv yixia",
+        "dishType": "beverage",
+        "price": 2.25,
+        "flavor": "",
+        "spicyLevel": 0,
+        "image": "/pics/omei_about.png",
+        "recommend": false
+    }
+]

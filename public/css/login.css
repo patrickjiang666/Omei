@@ -1,0 +1,28 @@
+body{
+	background-image: url(/pics/lake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#map{
+	width:85%;
+	height:500PX;
+	margin:auto;
+	margin-top:10px;
+	border-radius: 20px;
+	
+}
+.container{
+	float: left;
+	margin:30px;
+	margin-left:10%;
+	width: 400px;
+	border-radius:25px;
+	background-color:yellow;
+	padding:30px;
+}
+#yelpwidget{
+	margin:30px;
+	border-radius: 20px;
+	background-color:yellow;
+	padding: 20PX
+}

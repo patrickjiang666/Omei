@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="food order system">
+    <meta name="author" content="vincent jiang">
+    <title>Omei OrderNow</title>
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  	<script src="js/index.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+	<div id="order">
+		<br>
+		<div class="navbar" >
+			<ul class="nav navbar-nav navbar-right" style="margin-right:10%">
+				<li id="backToMenu">Back To Menu/返回</li>
+				<li></li>
+				<li>Check Out/结账</li>
+			</ul>
+		</div>
+		<div class="main container">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Dish id/菜号</th>
+						<th>Name/菜名</th>
+						<th>Amount/份数</th>
+						<th>Size/分量</th>
+						<th>Spicy/辣度</th>
+						<th>Else/其它</th>
+						<th>Total/金额</th>
+					</tr>
+				</thead>
+				<tbody id="tbody">
+					<tr ng-repeat="i in orderlist">
+						<td>{{i.dishId}}</td>
+						<td>{{i.dishName}}</td>
+						<td>
+							<button class="glyphicon glyphicon-minus btn-primary" ng-click="subOne($event)"></button>
+							<span>{{i.quantity}}</span>
+							<button class="glyphicon glyphicon-plus btn-primary" ng-click="addOne($event)"></button>
+						</td>
+						<td>
+							<select class="form-control size">
+								<option>L/大份</option>
+								<option>M/中份</option>
+								<option>S/小份</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control degree">
+								<option>Strong/强辣</option>
+								<option>Medium/中辣</option>
+								<option>Mild/小辣</option>
+							</select>
+						</td>
+						<td>
+							<input type="text"/>
+						</td>
+						<td>{{i.unitPrice*i.quantity | number:2 }}</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th>Total/总额</th>
+						<th id="total">{{total | number:2}}</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</div>
+	<div class="container-fluid" id="wrapper">
+		<div class="navbar navbar-fixed-top" id="topfix">
+			<ul class="nav navbar-nav navbar-right" style="margin-right:10%">
+				<li id="orderReview">Order Preview/下单预览</li>
+			</ul>
+		</div>
+		<br><br><br>
+		<div class="row">
+			<div class="col-sm-3 col-md-2  navbar" id="sidebar">
+				<img src="/pics/omei_about.png"/>
+				<ul class="nav navbar">
+					<li ng-click="menuType='signature'">Signature/招牌菜</li>
+					<li ng-click="menuType='cold'">Cold/凉菜</li>
+					<li ng-click="menuType='main'">Entree/主菜</li>
+					<li ng-click="menuType='soup'">Soup/汤</li>
+					<li ng-click="menuType='beverage'">Beverage/饮料</li>
+					<li ng-click="menuType='dessert'">Dessert/甜点</li>
+				</ul>
+			</div>
+			<div class="col-sm-8 col-md-10 main" >
+				<div class="dishes col-sm-3 col-md-3" ng-repeat="d in dishlist| filter:serchType">
+					<span class="dishid" style="display:none">{{d.dishId}}</span>
+					<img ng-src="{{d.image}}"/>
+					<div class="dishname">
+						<span>Dish Name: </span>
+						<span>{{d.dishName}}</span>
+					</div>	
+					<div class="dishprice">
+						<span>Price: $</span>
+						<span>{{d.price}}</span>
+						<span class="dishid" style="display:none">{{d.dishId}}</span>
+					</div>
+					<button class="btn btn-primary" ng-click="orderOne($event)">Order/点菜</button>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12">
+				<p></p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

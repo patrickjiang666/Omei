@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome System Manager</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="js/Manager.js"></script>
+	
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+	
+	<div class="container">
+		<div>
+			<img src="/pics/omei_head.png" width="300px"/>
+			<form id="form" class="" action="" method="get">
+			  <div class="form-group">
+				<div class="input-group" style="width:300px">
+					<span class="input-group-addon">User Name</span>
+					<input type="text" class="form-control" placeholder="username" id="username" value="manager" name="username">
+				  </div>
+				  <div class="input-group" style="width:300px">
+					<span class="input-group-addon">Password</span>
+					<input type="password" class="form-control" placeholder="pwd" id="pwd" value="123456" name="pwd">
+				</div>
+			  </div>
+			</form>
+			<input type="button" class="btn btn-primary" value="Login" ng-click="login()" style="float:left;"></input>
+		</div>
+	
+	</div>
+	<div id='yelpwidget' style="float:left"></div>
+	<script></script>
+	<div id="map"></div>
+<!--	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>-->
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyC7tWXAaX6-CB7NhkAXwsne6Wip0nIAXgU"></script>
+<!--	AIzaSyC7tWXAaX6-CB7NhkAXwsne6Wip0nIAXgU-->
+
+</body>
+</html>
+

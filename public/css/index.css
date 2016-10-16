@@ -1,0 +1,62 @@
+.dishes:hover{
+	background-color: white;
+}
+#topfix{
+	background-color: gray;
+}
+.navbar{
+	background-color:inherit;
+}
+#sidebar{
+	background-color:transparent;
+}
+#wrapper{
+	display: block;
+}
+#order{
+	display: none;
+}
+li{
+	padding: 20px;
+	font-size: 1.5em;
+	color: black;
+	font-family:cursive;
+	border-radius: 20px;
+	text-align:center;
+	padding:10px;
+}
+li:hover{
+	background-color: greenyellow;
+}
+.main{
+	background-color: #333;
+	min-height: 500px;
+	padding: 50px;
+	border-radius: 10px;
+}
+body{
+	background-color: yellow;	
+	height: 100%;
+	clear: both;
+	background-image: url(/pics/lake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dishes{
+	box-sizing: border-box;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	background-color:antiquewhite;
+	border-radius: 20px;
+	text-align: center;
+	padding: 5px;
+}
+td,th{
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+}
+select{
+	text-align: center;
+}
