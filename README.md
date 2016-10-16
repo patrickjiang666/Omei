@@ -8,3 +8,7 @@ MEAN Stack:
 -Express 4 
 -NodeJS 
 -BootStrap
+
++ Google Map API
++ Yelp API
+
