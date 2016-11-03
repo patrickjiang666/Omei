@@ -81,7 +81,7 @@ Enviornment: NodeJS + Express
 
 ## Authors
 
-* **Vincent Jiang** -- [*Initial work*](https://github.com/patrickjiang666/Omei)
+* **Patrick Jiang** -- [*Initial work*](https://github.com/patrickjiang666/Omei)
 
 ## License
 
